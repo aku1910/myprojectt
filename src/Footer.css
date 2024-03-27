@@ -6,6 +6,7 @@
 .footer1{
 display: flex;
 justify-content: space-around;
+flex-wrap: wrap;
 }
 .aboutus{
     display: flex;
@@ -16,4 +17,15 @@ justify-content: space-around;
     display: flex;
     justify-content: center;
     padding-top: 60px;
+}
+
+@media only screen and (max-width: 620px) {
+input{
+    width: 70px !important;
+    font-size: 10px !important;
+}
+.input button{
+width: 80px !important;
+font-size: 10px !important;
+}
 }

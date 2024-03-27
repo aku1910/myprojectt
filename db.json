@@ -4,47 +4,47 @@
             "Id": 1,
             "ProductImage": "src/assets/cloth1.jpg",
             "Name": "Kiko Linen Slip Dress,Brown",
-            "Price": "£69.00",
-            "count": "1"
+            "Price": 69.00,
+            "count": 1
         },
       {
             "Id": 2,
             "ProductImage": "src/assets/cloth2.jpg",
             "Name": "Sleeve Dress, White",
-            "Price": "£99.00 — £69.00",
-            "count": "1"
+            "Price": 69.00,
+            "count": 1
 
         },
         {
             "Id": 3,
             "ProductImage": "src/assets/cloth3.jpg",
             "Name": "Hodina Watch",
-            "Price": "£29.00",
-            "count": "1"
+            "Price": 29.00,
+            "count": 1
 
         },
             {
             "Id": 4,
             "ProductImage": "src/assets/shoe1.jpg",
             "Name": "Triangle Low White-Black",
-            "Price": "£29.00",
-            "count": "1"
+            "Price": 29.00,
+            "count": 1
 
         },
         {
             "Id": 5,
             "ProductImage": "src/assets/shoe2.jpg",
             "Name": "Kid Dress, White",
-            "Price": "£99.00 — £69.00",
-            "count": "1"
+            "Price":  69.00,
+            "count": 1
 
         },
         {
             "Id": 6,
             "ProductImage": "src/assets/watch1.jpg",
             "Name": "Lady Shoes, Brown",
-            "Price": "£99.00 — £69.00",
-            "count": "1"
+            "Price": 69.00,
+            "count": 1
 
         }
     ]

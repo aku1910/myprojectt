@@ -7,7 +7,7 @@ import Footer from './Footer'
 import "./Footer.css"
 import { Outlet } from 'react-router-dom'
 
-
+import "./Error.css"
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
     <>
     <Navi/>
     <Outlet/>
-      <Footer/>
+    <Footer/>
     </>
   )
 }

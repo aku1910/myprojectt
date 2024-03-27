@@ -109,7 +109,7 @@ function Example(args) {
                                 </div>
                         </div>
                     </div>
-                    <h5><IoPersonSharp /></h5>
+                   <button style={{border:"transparent" , backgroundColor:"transparent"}}><Link  style={{color:"black" }} to={"/Admin"}><IoPersonSharp /></Link> </button> 
                 </Nav>
                 {windowWidth <= 992 && <NavbarToggler onClick={toggle} />}
                 <Collapse isOpen={isOpen && windowWidth <= 992} navbar>

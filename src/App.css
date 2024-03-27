@@ -184,10 +184,44 @@ nav li {
     justify-content: space-between;  
 
 }
+.adminpanel{
+    margin-top: 100px;
 
+}
 
 @media only screen and (max-width: 992px) {
     .middle {
-        display: none;
+        display: none !important;
+    }
+    .last{
+        display: none !important;
+    }
+    .slidermessage h1{
+        font-size: 30px;
+    }
+    .slidermessage button{
+        font-size: 14px;
+        width: 130px;
+        height: 30px;
     }
 }
+@media only screen and (max-width: 620px) {
+.aboutimagee{
+    width: 200px;
+}
+.aboutimagee p{
+    font-size: 10px;
+}
+.image{
+    width: 200px;
+}
+.slidermessage h1{
+    font-size: 20px;
+}
+.slidermessage button{
+    font-size: 10px;
+    width: 100px;
+    height: 30px;
+}
+}
+

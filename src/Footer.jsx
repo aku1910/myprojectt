@@ -26,7 +26,7 @@ const Footer = () => {
         <span>Gift Cards</span>
         <span>Student Discount</span>
      </div>
-     <div>
+     <div className='input'>
         <h6>Join our list and receive exclusives</h6>
         <input  type="e-mail" value={"Email adress"} style={{height:"42px" , width:"400px"}} /><button style={{backgroundColor:"black" , color:"white" , fontSize:"12px" ,width:"120px", height:"42px", paddingTop:"5px"}}>SUBSCRIBE</button>
      </div>

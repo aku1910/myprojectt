@@ -12,12 +12,16 @@ import Checkout from './Checkout.jsx'
 import Main from './pages/mainPage.jsx'
 import { Provider } from 'react-redux'
 import { Store } from './store.jsx'
+import Admin from './Admin.jsx'
+import Errorpage from './Errorpage.jsx'
+
 
 const router=createBrowserRouter([
   {
     path:"/",
     element:<App />,
     children:[
+
       {
         path:"/about",
         element:<About/>
@@ -46,6 +50,14 @@ const router=createBrowserRouter([
         path: "/checkout",
         element: <Checkout />,
     },
+    {
+      path: "/Admin",
+      element :<Admin />
+    },
+    {
+      path:"*",
+      element:<Errorpage/>
+    }
     ]
   }
 ])
