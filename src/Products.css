@@ -1,0 +1,13 @@
+.products{
+    display: flex;
+    flex-wrap: wrap ;
+    margin-top: 96px;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    
+}
+.products img{
+    width: 360px;
+  
+}

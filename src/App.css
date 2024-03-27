@@ -1,0 +1,193 @@
+.navbar {
+    background-color: transparent;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+}
+
+.cards {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 100px;
+    background-color: rgba(248, 249, 250, 0.973);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.card1 {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.card2 {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+.card3 {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+.middle {
+    display: flex;
+    gap: 40px;
+    font-size: 13px;
+}
+.middle a{
+    
+    color: gray;
+}
+
+nav li {
+    list-style: none;
+}
+
+.last {
+    display: flex;
+    gap: 20px;
+
+}
+
+.sliderr {
+    position: relative;
+    bottom: 60px;
+}
+
+.sliderr .image {
+    width: 100%;
+    height: 700px;
+}
+
+
+.slidermessage {
+    text-align: center;
+    width: 45%;
+    position: absolute;
+    top: 30%;
+    left: 28%;
+    color: white;
+}
+
+.slidermessage h1 {
+    font-size: 55px;
+}
+
+.slidermessage a {
+    text-decoration: none;
+    color: rgb(15, 183, 141);
+}
+
+.slidermessage button {
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: transparent;
+}
+
+.slidermessage button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+.arrows {
+    cursor: pointer;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+}
+
+.containerr {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 96px;
+}
+
+.containerr .imagee{
+    position: relative;
+    background-repeat: no-repeat;
+    background-image: url("https://preview.colorlib.com/theme/product/images/hero_bg_1.jpg.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 70%;
+    height: 700px;
+}
+
+.aboutimagee{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 500px;
+    height: 250px;
+    left: 20px; 
+    bottom: 200px;
+    background-color: white;
+}
+.aboutimagee button{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 40px;
+    font-size: 13px;
+    font-weight: 450;
+}
+.slider {
+    margin:0 20px;
+    overflow:"hidden";
+    padding:2rem 0;
+  }
+  
+  .slider img {
+    width: 100%;
+    border-radius:10px;
+  }
+  
+  .react-multi-carousel-list {
+  padding: 0rem 0 2rem 0;
+  }
+  
+  .custom-dot-list-style button{
+  border: none;
+  background: rgb(255, 68, 68);
+  }
+  .react-multi-carousel-dot.react-multi-carousel-dot--active button{
+  background: rgb(255, 68, 68) !important;
+  }
+
+  .butonlar{
+    display: flex;
+    justify-content: space-between;  
+
+}
+
+
+@media only screen and (max-width: 992px) {
+    .middle {
+        display: none;
+    }
+}
